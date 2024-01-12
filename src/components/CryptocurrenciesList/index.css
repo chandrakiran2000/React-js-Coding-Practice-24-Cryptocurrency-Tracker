@@ -1,0 +1,101 @@
+/* Write your CSS code here */
+
+.cryptocurrencies-list-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cryptocurrencies-list-heading {
+  color: #00e7ff;
+  text-align: center;
+}
+.currency-img {
+  width: 100%;
+}
+
+.coins-type-heading-card {
+  border: 3px solid #00e7ff;
+  width: 80%;
+  border-radius: 4px;
+  padding-bottom: 20px;
+}
+.coins-type-card {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 17px;
+}
+.coins-type-text {
+  color: #ffffff;
+}
+
+.coins-type-usd-euro-card {
+  display: flex;
+  justify-content: flex-end;
+}
+.coins-type-usd-text {
+  color: #ffffff;
+  text-align: end;
+  width: 80px;
+  text-align: end;
+  margin-right: 50px;
+}
+.coins-type-euro-text {
+  color: #ffffff;
+  width: 50px;
+  text-align: end;
+  margin-right: px;
+}
+.lists-card {
+  list-style-type: none;
+  margin-left: -39px;
+}
+@media screen and (max-width: 768px) {
+  .cryptocurrencies-list-heading {
+    color: #00e7ff;
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .coins-type-heading-card {
+    border: 3px solid #00e7ff;
+    width: 90%;
+    border-radius: 4px;
+    padding-bottom: 20px;
+  }
+  .coins-type-card {
+    background-color: #092e33;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+  }
+  .coins-type-text {
+    color: #ffffff;
+  }
+
+  .coins-type-usd-euro-card {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+  }
+  .coins-type-usd-text {
+    color: #ffffff;
+    text-align: end;
+    width: 80px;
+    text-align: end;
+    margin-right: 50px;
+  }
+  .coins-type-euro-text {
+    color: #ffffff;
+    width: 50px;
+    text-align: end;
+    margin-right: px;
+  }
+}
